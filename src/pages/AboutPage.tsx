@@ -9,6 +9,10 @@ import TestimonialCard from '../components/TestimonialCard';
 import aboutft from '../midia/fotos/sistema/about.webp'
 import historiaft from '../midia/fotos/sistema/historia.webp'
 
+import foto1 from '../midia/fotos/diretoria/gustavo-neri.jpg'
+import foto2 from '../midia/fotos/diretoria/hevelin-pazeto.jpg'
+import foto3 from '../midia/fotos/diretoria/thaysa-camacho.jpg'
+
 
 const AboutPage: React.FC = () => {
   const team = [
@@ -34,13 +38,13 @@ const AboutPage: React.FC = () => {
       name: "Hevelin Leticia Luz Pazeto",
       role: "Tesoureira",
       bio: "Psicóloga apaixonada por trabalho voluntário. Coordena mais de 300 voluntários ativos em diversos projetos da instituição.",
-      imageSrc: "https://images.pexels.com/photos/5439153/pexels-photo-5439153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      imageSrc: foto2
     },
     {
       name: "Thaysa Satye Sugayama Camacho",
       role: "Conselho Deliberativo",
       bio: "Jornalista com experiência em comunicação social. Responsável pela divulgação das ações e projetos da Casa do Bom Samaritano.",
-      imageSrc: "https://images.pexels.com/photos/5792640/pexels-photo-5792640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      imageSrc: foto3
     },
     {
       name: "Lucas Martinucci",
@@ -58,7 +62,7 @@ const AboutPage: React.FC = () => {
       name: "Gustavo Henrique Terra Neri",
       role: "Conselho Fiscal",
       bio: "Pedagoga com especialização em educação infantil. Coordena o projeto de educação para crianças atendidas pela Casa do Bom Samaritano.",
-      imageSrc: "https://images.pexels.com/photos/5792646/pexels-photo-5792646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      imageSrc: foto1
     }
   ];
 
